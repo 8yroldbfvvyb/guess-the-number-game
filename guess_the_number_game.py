@@ -18,5 +18,5 @@ while True:
             number = random.randint(1, 100)
             score = 0
             continue
-        elif again == 'n':
-            break
+    elif again == 'n':
+        break
