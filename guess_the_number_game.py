@@ -14,7 +14,7 @@ while True:
         print("you guessed this number: " + str(number))
         print("this was your score: " + str(score))
         again = input("do you want to play again (y/n) ")
-    elif int(guess)>100 or int(guess)<1
+    elif int(guess)>100 or int(guess)<1:
         print("over 100 or less than 1")    
     if again == 'y':
             number = random.randint(1, 100)
