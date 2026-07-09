@@ -2,11 +2,6 @@ import random
 
 number = random.randint(1, 100)
 score = 0
-
-name = input("what is your name (this is not stored its for god mode) ")
-if name == 'Ben':
-    print("god mode activated the number is: " + str(number))
-
 while True:
     guess = input("guess the number: ")
     score = score + 1
